@@ -90,7 +90,7 @@ function onWindowResize() {
     renderer.setSize(window.innerWidth, window.innerHeight);
 }
 
-function onMouseDown(event:MouseEvent){
+function onMouseDown(){
    console.log("mouse position: (" + mouse.x + ", "+ mouse.y + ")");
 }
 
