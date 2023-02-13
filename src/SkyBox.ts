@@ -1,16 +1,10 @@
 import * as THREE from 'three';
-import bk from './assets/SkyBox/corona_bk.png'
-import lf from './assets/SkyBox/corona_lf.png'
-import up from './assets/SkyBox/corona_up.png'
-import dn from './assets/SkyBox/corona_dn.png'
-import ft from './assets/SkyBox/corona_ft.png'
-import rt from './assets/SkyBox/corona_rt.png'
 
 export default class SkyBox{
     skyboxGeometry: THREE.BoxGeometry;
     mesh: THREE.Mesh
 
-    imagePaths = [ft, bk, up, dn, rt, lf]
+    imagePaths = ['/assets/SkyBox/corona_ft.png', "/assets/SkyBox/corona_bk.png", '/assets/SkyBox/corona_up.png', '/assets/SkyBox/corona_dn.png', '/assets/SkyBox/corona_rt.png', '/assets/SkyBox/corona_lf.png']
 
     constructor(){
       

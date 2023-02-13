@@ -1,7 +1,5 @@
 import './style.css';
 import * as THREE from 'three';
-import tex from './assets/textures/Moon_Diff.png';
-import texDisplacement from './assets/textures/Moon_Disp.png';
 import SkyBox from './SkyBox';
 
 let scene: THREE.Scene
@@ -47,11 +45,10 @@ function init(){
 
   // // ---- 3D CUBE ----
 
-  const texture = new THREE.TextureLoader().load(tex);
+  const texture = new THREE.TextureLoader().load('/assets/textures/Moon_Diff.png');
   const geometry = new THREE.SphereGeometry( 300, 300, 300);
-  const material = new THREE.MeshPhongMaterial({map: texture})
-  material.displacementMap = new THREE.TextureLoader().load(texDisplacement)
-
+  const material = new THREE.MeshBasicMaterial({map: texture})
+  
   moon = new THREE.Mesh(geometry, material);
   skyBox = new SkyBox();
   scene.add( camera );
