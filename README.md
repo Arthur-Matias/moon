@@ -9,7 +9,7 @@
 
 ## About <a name = "about"></a>
 
-<img src="https://github.com/Arthur-Matias/moon/tree/main/public/moon.gif">
+<img src="https://github.com/Arthur-Matias/moon/blob/main/public/moon.gif?raw=true">
 
 ## Getting Started <a name = "getting_started"></a>
 
