@@ -45,7 +45,7 @@ function init(){
 
   // // ---- 3D CUBE ----
 
-  const texture = new THREE.TextureLoader().load('/Moon_Diff.png');
+  const texture = new THREE.TextureLoader().load('/moon/Moon_Diff.png');
   const geometry = new THREE.SphereGeometry( 300, 300, 300);
   const material = new THREE.MeshBasicMaterial({map: texture})
   

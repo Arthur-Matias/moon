@@ -4,7 +4,7 @@ export default class SkyBox{
     skyboxGeometry: THREE.BoxGeometry;
     mesh: THREE.Mesh
 
-    imagePaths = ['/corona_ft.png', "/corona_bk.png", '/corona_up.png', '/corona_dn.png', '/corona_rt.png', '/corona_lf.png']
+    imagePaths = ['/moon/corona_ft.png', "/moon/corona_bk.png", '/moon/corona_up.png', '/moon/corona_dn.png', '/moon/corona_rt.png', '/moon/corona_lf.png']
 
     constructor(){
       
